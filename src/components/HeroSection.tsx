@@ -2,7 +2,7 @@ import heroBand from "@/assets/hero-band.png";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-start justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
