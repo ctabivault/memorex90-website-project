@@ -25,6 +25,28 @@ const HeroSection = () => {
           Playing Songs from your favorite 80s and 90s Mixtapes
         </p>
       </div>
+
+      {/* Bottom navigation links */}
+      <div className="absolute bottom-8 left-0 right-0 z-10 flex justify-center gap-8 md:gap-12">
+        {[
+          { label: "Home", path: "" },
+          { label: "About", path: "about" },
+          { label: "Videos", path: "videos" },
+          { label: "Gallery", path: "gallery" },
+          { label: "Social", path: "social" },
+        ].map((item) => (
+          <a
+            key={item.label}
+            href={`#${item.path || "home"}`}
+            className="flex flex-col items-center text-primary-foreground hover:opacity-80 transition-opacity"
+          >
+            <span className="text-sm md:text-base font-display tracking-wider">{item.label}</span>
+            <span className="text-[10px] md:text-xs opacity-60 font-body">
+              www.memorex90.com/{item.path}
+            </span>
+          </a>
+        ))}
+      </div>
     </section>
   );
 };
