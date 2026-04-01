@@ -41,9 +41,6 @@ const HeroSection = () => {
             className="flex flex-col items-center text-primary-foreground hover:opacity-80 transition-opacity"
           >
             <span className="text-sm md:text-base font-display tracking-wider">{item.label}</span>
-            <span className="text-[10px] md:text-xs opacity-60 font-body">
-              www.memorex90.com/{item.path}
-            </span>
           </a>
         ))}
       </div>
