@@ -17,16 +17,13 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 drop-shadow-2xl">
+      <div className="relative z-10 text-center px-4 pt-20 md:pt-24">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 drop-shadow-2xl opacity-50">
           Memorex90
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground font-body max-w-2xl mx-auto mb-8">
-          The Rock Party Fusion Band for Festivals, Fairs, Corporate Functions, Private Parties & Large Music Venues
+        <p className="text-lg md:text-xl text-muted-foreground font-body max-w-2xl mx-auto">
+          Playing Songs from your favorite 80s and 90s Mixtapes
         </p>
-        <a href="#shows" className="btn-band">
-          Upcoming Shows
-        </a>
       </div>
     </section>
   );
