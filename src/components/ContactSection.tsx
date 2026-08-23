@@ -11,7 +11,7 @@ const ContactSection = () => {
         <div className="flex items-center justify-center gap-5 mb-10">
           <a
             href="https://www.facebook.com/"
-            target="_blank"
+            target="https://www.facebook.com/profile.php?id=61593848002373"
             rel="noopener noreferrer"
             className="social-icon"
             aria-label="Facebook"
@@ -20,7 +20,7 @@ const ContactSection = () => {
           </a>
           <a
             href="https://www.instagram.com/"
-            target="_blank"
+            target="https://www.instagram.com/memorex90band/?hl=en"
             rel="noopener noreferrer"
             className="social-icon"
             aria-label="Instagram"
@@ -41,10 +41,10 @@ const ContactSection = () => {
         <div className="glass-card inline-flex items-center gap-3 px-6 py-4">
           <Mail size={18} className="text-primary" />
           <a
-            href="mailto:memorex90@gmail.com"
+            href="mailto:memorex90band@gmail.com"
             className="font-body text-foreground hover:text-primary transition-colors"
           >
-            memorex90@gmail.com
+            memorex90band@gmail.com
           </a>
         </div>
       </div>
